@@ -1,6 +1,7 @@
 {
     "name": "elmansour/symfony-thirdparty-locale",
     "description": "Symfony Third Party Adapter",
+    "version": "1.0.0",
     "type": "library",
     "require": {
         "php": ">=8.1",
