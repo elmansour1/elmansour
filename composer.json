@@ -1,0 +1,59 @@
+{
+    "name": "elmansour/symfony-thirdparty-locale",
+    "description": "Symfony Third Party Adapter",
+    "type": "library",
+    "require": {
+        "php": ">=8.1",
+        "ext-ctype": "*",
+        "ext-iconv": "*",
+        "beberlei/doctrineextensions": "^1.3",
+        "doctrine/doctrine-bundle": "^2.10",
+        "doctrine/doctrine-migrations-bundle": "^3.2",
+        "doctrine/orm": "^2.16",
+        "friendsofsymfony/rest-bundle": "^3.5",
+        "jms/serializer-bundle": "^5.3",
+        "nelmio/api-doc-bundle": "^4.12",
+        "sensio/framework-extra-bundle": "^6.2",
+        "symfony/amqp-messenger": "^6.3",
+        "symfony/asset": "^6.3",
+        "symfony/console": "^6.3",
+        "symfony/dotenv": "^6.3",
+        "symfony/flex": "^2.3",
+        "symfony/framework-bundle": "^6.3",
+        "symfony/messenger": "^6.3",
+        "symfony/monolog-bundle": "^3.8",
+        "symfony/proxy-manager-bridge": "^6.3",
+        "symfony/runtime": "^6.3",
+        "symfony/security-bundle": "^6.3",
+        "symfony/twig-bundle": "^6.3",
+        "symfony/validator": "^6.3",
+        "symfony/yaml": "^6.3",
+        "twig/extra-bundle": "^3.7",
+        "twig/twig": "^3.7",
+        "doctrine/doctrine-fixtures-bundle": "^3.4"
+    },
+    "require-dev": {
+        "nunomaduro/phpinsights": "^2.8",
+        "phpmd/phpmd": "^2.13",
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^10.3",
+        "squizlabs/php_codesniffer": "^3.7",
+        "symfony/browser-kit": "^6.3",
+        "symfony/css-selector": "^6.3",
+        "symfony/phpunit-bridge": "^6.3",
+        "vimeo/psalm": "^5.15"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Afrikpaysas\\SymfonyThirdpartyAdapter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "FAOUZI EL MANSOUR",
+            "email": "elmansourfaaouzi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

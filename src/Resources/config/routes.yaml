@@ -1,0 +1,27 @@
+afrikpaysas_symfony_thirdparty_adapter_app_default:
+  path: /
+  controller: Afrikpaysas\SymfonyThirdpartyAdapter\Controller\AppController::default
+
+afrikpaysas_symfony_thirdparty_adapter_app_error:
+  path: /error
+  controller: Afrikpaysas\SymfonyThirdpartyAdapter\Controller\ErrorController::error
+
+afrikpaysas_symfony_thirdparty_adapter_config_parameters:
+  path: /config/parameters
+  controller: Afrikpaysas\SymfonyThirdpartyAdapter\Controller\ConfigController::parameters
+
+afrikpaysas_symfony_thirdparty_adapter_config_exceptions:
+  path: /config/exceptions
+  controller: Afrikpaysas\SymfonyThirdpartyAdapter\Controller\ConfigController::exceptions
+
+app.swagger:
+  path: /config/routes
+  methods: GET
+  defaults: { _controller: nelmio_api_doc.controller.swagger }
+
+## Requires the Asset component and the Twig bundle
+## $ composer require twig asset
+app.swagger_ui:
+  path: /api/doc
+  methods: GET
+  defaults: { _controller: nelmio_api_doc.controller.swagger_ui }
